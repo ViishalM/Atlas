@@ -11,6 +11,20 @@ var map = new mapboxgl.Map({
     center: [121.037, 14.332] // Default centered coordinate
 });
 
+//geo location
+
+map.addControl(
+    new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+         trackUserLocation: true,
+         showUserHeading: true,
+        
+    }),
+    'bottom-right'
+);
+
 // Search Places
 var geocoder = new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
@@ -22,6 +36,8 @@ var directions = new MapboxDirections({
     })
     // Adding Search Places on Map
 map.addControl(geocoder, 'top-left')
+
+
 
 
 // Adding navigation control on Map
