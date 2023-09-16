@@ -13,6 +13,6 @@
 <h2>Public key for Mapbox is used in this demonstation</h2>
 
 <h1>Working</h1>
-<h2>JavaScript file contains all the functionalities.</h2>
-<h2>The index.html and CSS styles provides the required frontend. </h2>
-<h2>Map.js contains functionalities</h2>
+<h3>JavaScript file contains all the functionalities.</h3>
+<h3>The index.html and CSS styles provides the required frontend. </h3>
+<h3>Map.js contains functionalities</h3>
