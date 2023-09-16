@@ -1,9 +1,8 @@
 # mapboxmaps
-<h1This is a simple demonstration of Mapbox.></h1>
-
+<h1>This is a simple demonstration of Mapbox.</h1>
 <h1>Various functionalities provided by mapbox is employed in this poject</h1>
 <ul>
-  <li>Displayy Map</li>
+  <li>Display Map</li>
   <li>Search</li>
   <li>Navigation</li>
   <li>Curent Location</li>
